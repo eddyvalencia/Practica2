@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+.header {
+    background: #9ECEFA;
+    color: #87119A;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 33px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: white
+}
+
+h2 {
+    color: #87119A;
+}
+
+.nosotros {
+    padding-left: 33px;
+}
+
+.servicios {
+    padding-left: 33px;    
+}
+
+.serv {
+    display: flex;
+    justify-content: space-evenly;    
+    padding: 20px;
+}
+
+.ok {
+    display: flex;
+    justify-content: center;
+}
+
+.portafolio {
+    margin-left: 33px;
+}
+
+.contacto {
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    margin-right: 50px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #9ECEFA;
+}
+ footer p {
+     margin-left: 33px;
+     margin-right: 20px;
+ }
+
+ footer span {
+     color: #87119A;
+ }
+
+
+
